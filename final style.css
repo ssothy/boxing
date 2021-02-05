@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+	background-color: black;
+}
+.title{
+	font-family: 'Trade Winds', Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 4em;
+	letter-spacing: 1em;
+	color: white;
+	text-align: center;
+}
+
+nav {
+	background-color:forestgreen;
+	padding-bottom: 4em;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+li a {
+	text-decoration: none;
+	display:block;
+	padding: 21px 4.5em;
+	float: left;
+	color: white;
+	margin:0px 50px;
+	text-align: center;
+	font-family: 'Trade Winds', Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; 
+}
+
+li a:hover{
+	background-color: white;
+	color: forestgreen;
+}
+
+.about {
+	background-color:white;
+	float:left;
+	width: 60%;
+	font-size: large;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	border: double forestgreen 10px;
+	margin-left: 10px;
+}
+
+.about h1 {
+	font-family: 'Trade Winds', Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align:center;
+}
+
+.image {
+	float: left;
+	width: 35%;
+}
+
+footer{
+	color:hsla(0,0%,100%,0.40);
+	margin-left: 10px;
+}
